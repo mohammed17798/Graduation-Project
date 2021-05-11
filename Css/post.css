@@ -29,9 +29,11 @@ header .container {
   margin-bottom: 50px;
   line-height: 2;
 }
-/* .posr .container .entry_post p ol li {
-  list-style-type: decimal;
-} */
+.text p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .video iframe {
   height: 500px;
   width: 100%;

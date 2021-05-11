@@ -4,6 +4,7 @@
   -webkit-box-sizing: border-box;
   padding: 0;
   margin: 0;
+  list-style-type: none;
   text-decoration: none;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -88,7 +89,6 @@ header .container nav .links ul {
   width: 100%;
   background-color: #192a35;
   list-style-type: none;
-
 }
 header .container nav .links ul li {
   margin: 15px;
@@ -99,8 +99,8 @@ header .container nav .links ul li a {
 }
 .links .menu {
   position: relative;
-  background-color: #192a35;  cursor: default;
-
+  background-color: #192a35;
+  cursor: default;
 }
 .links .menu::after {
   content: "";
@@ -121,7 +121,6 @@ header .container nav .links ul li a {
   width: 150px;
   display: none;
   list-style-type: none;
-
 }
 .submenu::before {
   content: "";
@@ -236,6 +235,7 @@ h2 {
   display: flex;
   align-items: baseline;
   flex-direction: column;
+  justify-content: space-around;
 }
 .articale .details p {
   text-align: right;
