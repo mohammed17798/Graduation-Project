@@ -41,10 +41,11 @@ section:not(:last-of-type),
 }
 /*Start header*/
 header {
-  height: 80vh;
+  height: 100vh;
   background-image: url(../img/header.jpg);
   background-size: cover;
 }
+
 header .container {
   height: auto;
   padding: 0 5px;
