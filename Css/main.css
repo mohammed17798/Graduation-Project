@@ -5,7 +5,6 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-  list-style-type: none;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
@@ -88,6 +87,8 @@ header .container nav .links ul {
   display: flex;
   width: 100%;
   background-color: #192a35;
+  list-style-type: none;
+
 }
 header .container nav .links ul li {
   margin: 15px;
@@ -98,7 +99,8 @@ header .container nav .links ul li a {
 }
 .links .menu {
   position: relative;
-  background-color: #192a35;
+  background-color: #192a35;  cursor: default;
+
 }
 .links .menu::after {
   content: "";
@@ -109,9 +111,7 @@ header .container nav .links ul li a {
   left: -13px;
   top: 10px;
 }
-.links .menu {
-  cursor: default;
-}
+
 .links .menu:hover .submenu {
   display: block;
 }
@@ -120,6 +120,8 @@ header .container nav .links ul li a {
   top: 65px;
   width: 150px;
   display: none;
+  list-style-type: none;
+
 }
 .submenu::before {
   content: "";
