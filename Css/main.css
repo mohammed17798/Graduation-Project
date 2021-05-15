@@ -257,6 +257,7 @@ h2 {
   line-height: 30px;
   font-size: medium;
   padding-left: 30px;
+  width: 50%;
 }
 .about .container .info img {
   width: 50%;
