@@ -2,9 +2,9 @@ header {
   background-image: none;
   height: auto;
 }
-header .container {
+/* header .container {
   position: static;
-}
+} */
 .post_title {
   width: fit-content;
   margin: auto;
